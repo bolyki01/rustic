@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.11.2](https://github.com/rustic-rs/rustic/compare/v0.11.1...v0.11.2) - 2026-04-02
+
+### Added
+
+- add exclude-if-xattr option ([#1718](https://github.com/rustic-rs/rustic/pull/1718))
+
+### Fixed
+
+- fix some typos ([#1710](https://github.com/rustic-rs/rustic/pull/1710))
+- Add keep-{within-}hourly to config/full.toml ([#1704](https://github.com/rustic-rs/rustic/pull/1704))
+
+### Other
+
+- move to axum for webdav command ([#1720](https://github.com/rustic-rs/rustic/pull/1720))
+- update dependencies ([#1721](https://github.com/rustic-rs/rustic/pull/1721))
+- *(deps)* bump quinn-proto from 0.11.13 to 0.11.14 ([#1703](https://github.com/rustic-rs/rustic/pull/1703))
+- Update core ([#1698](https://github.com/rustic-rs/rustic/pull/1698))
+
 ## [0.11.1](https://github.com/rustic-rs/rustic/compare/v0.11.0...v0.11.1) - 2026-03-05
 
 ### Added
